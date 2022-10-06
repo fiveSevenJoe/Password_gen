@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 400px;
+  border: solid 1px black;
+  background-color: darkred;
+  color: burlywood;
+  border-radius: 15px;
+  box-shadow: 2px 4px 4px;
+}
+
+.headder {
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  position: relative;
+  bottom: 50px;
+}
+
+#btn {
+  align-items: flex-end;
+  display: flex;
+  position: relative;
+  top: 30px;
+  right: 90px;
+  background-color: darkgoldenrod;
+  color: aliceblue;
+  font-weight: bold;
+  border: 1px white solid;
+}
+
+.lab {
+  position: relative;
+  left: 50px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.input {
+  position: relative;
+  width: 300px;
+  background-color: darkslategray;
+  color: whitesmoke;
+}
